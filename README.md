@@ -1,18 +1,20 @@
 <div align="center">
 
 # Ricardo Severiano (Byteric)
-### Software Engineering Student @ CESAR School • Recife, Brazil
+### Software Engineering & Full Stack Developer • CESAR School (Porto Digital — Recife, PE)
 
 <p align="center">
+  <a href="https://ricardo-severiano-portfolio.web.app"><img src="https://img.shields.io/badge/Portfólio-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfólio" /></a>
   <a href="https://linkedin.com/in/ricardofilhodev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:krgamers139@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:ricardoseverianodesouzafilho@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ```typescript
 const ricardo = {
-  role: "Software Engineering & Full Stack Developer",
-  institution: "CESAR School (Recife - PE)",
-  currentFocus: ["TypeScript Monorepos", "Distributed Systems", "TDD & Automated Testing"],
+  role: "Software Engineer & Full Stack Developer",
+  institution: "CESAR School • Porto Digital (Recife - PE)",
+  portfolio: "https://ricardo-severiano-portfolio.web.app",
+  currentFocus: ["TypeScript & Node.js", "Python & Data Pipelines", "Docker & CI/CD", "TDD & E2E"],
   principles: ["Radical Simplicity", "Surgical Minimal Diffs", "Test-Driven Development"]
 };
 ```
@@ -23,10 +25,11 @@ const ricardo = {
 
 ### ⚡ Sobre Mim
 
-Desenvolvedor focado em **Engenharia de Software de alta fidelidade**, arquiteturas escaláveis e qualidade de código. Atualmente cursando Engenharia/Ciência da Computação na **CESAR School** (Porto Digital - Recife), com experiência prática na construção de monorepos, automação de testes e infraestrutura orientada a microsserviços.
+Desenvolvedor focado em **Engenharia de Software de alta fidelidade**, arquiteturas escaláveis e qualidade de código com TDD. Experiência em projetos reais para clientes como **Banco do Brasil**, **NTT DATA** e sistemas em produção para **ReTech+** via ecossistema CESAR School / Porto Digital.
 
-- 🔭 **Construindo atualmente:** [RENR+](https://github.com/byteric/renr-plus) — Plataforma web monorepo em TypeScript com Playwright E2E e Docker para gestão preventiva da NR-01.
-- 🧪 **Filosofia de Engenharia:** TDD rigoroso (Red-Green-Refactor), código limpo sem especulações desnecessárias e foco em soluções cirúrgicas.
+- 🌐 **Portfólio Oficial:** [ricardo-severiano-portfolio.web.app](https://ricardo-severiano-portfolio.web.app)
+- 🚀 **Em Produção:** [ReNR+](https://renr-plus-homologation.onrender.com/) — Sistema corporativo ativo para auditoria e gestão da NR-01.
+- 🧪 **Filosofia de Engenharia:** TDD rigoroso (Red-Green-Refactor), código limpo sem especulações desnecessárias e testes automatizados (Playwright/Jest/Pytest).
 - 📍 **Localização:** Recife, PE — Brasil.
 
 ---
@@ -35,11 +38,11 @@ Desenvolvedor focado em **Engenharia de Software de alta fidelidade**, arquitetu
 
 | Camada | Tecnologias & Ferramentas |
 | :--- | :--- |
-| **Linguagens** | TypeScript, JavaScript, C, Java, Python |
-| **Backend & APIs** | Node.js, Express, REST APIs, GraphQL |
+| **Linguagens** | TypeScript, JavaScript, Python, C, Java, SQL |
+| **Backend & APIs** | Node.js, Express, REST APIs, Prisma ORM, PostgreSQL |
 | **Frontend** | React, Next.js, Tailwind CSS, HTML5/CSS3 |
-| **Testes & Qualidade** | Playwright (E2E), Jest, Vitest, TDD, ESLint, Prettier |
-| **DevOps & Infra** | Docker, Git & GitHub Actions, PNPM Workspaces, Linux |
+| **Dados & Analytics** | PySpark, Databricks (Lakehouse Medalhão), Pandas, Delta Lake |
+| **Qualidade & DevOps** | Playwright (E2E), Jest, Docker, Git/GitHub Actions, CI/CD |
 
 ---
 
@@ -47,30 +50,57 @@ Desenvolvedor focado em **Engenharia de Software de alta fidelidade**, arquitetu
 
 <table>
   <tr>
-    <td width="50%">
-      <h3 align="center">🛡️ RENR+</h3>
+    <td width="33%" valign="top">
+      <h3 align="center">
+        🛡️ ReNR+<br/>
+        <img src="https://img.shields.io/badge/Status-Em%20Produção-2ea44f?style=flat-square" alt="Em Produção" />
+      </h3>
       <p align="center">
-        MVP corporativo para gestão preventiva de riscos psicossociais e conformidade com a NR-01.
+        <b>ReTech+ / Porto Digital</b><br/>
+        Plataforma corporativa ativa em produção para auditoria e gestão de riscos da NR-01.
       </p>
       <ul>
-        <li><b>Stack:</b> TypeScript, Monorepo (PNPM Workspaces), Docker, Playwright.</li>
-        <li><b>Destaques:</b> Pipeline de testes E2E automatizados, conteinerização e arquitetura modular.</li>
+        <li><b>Stack:</b> TypeScript, React, Node.js, Prisma, PostgreSQL, Docker, Playwright.</li>
+        <li><b>Destaques:</b> Pipeline de testes E2E Playwright, conteinerização Docker e alta confiabilidade.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/byteric/renr-plus"><b>Ver Repositório →</b></a>
+        <a href="https://renr-plus-homologation.onrender.com/"><b>🌐 Acessar Sistema</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/byteric/renr-plus"><b>💻 GitHub</b></a>
       </p>
     </td>
-    <td width="50%">
-      <h3 align="center">⚙️ Core Systems & Algorithms</h3>
+    <td width="33%" valign="top">
+      <h3 align="center">
+        🌱 BBCarbono<br/>
+        <img src="https://img.shields.io/badge/Status-Concluído-blue?style=flat-square" alt="Concluído" />
+      </h3>
       <p align="center">
-        Projetos de computação de baixo nível, estruturas de dados e programação imperativa/funcional na CESAR School.
+        <b>Banco do Brasil & CESAR School</b><br/>
+        Plataforma analítica ESG com pipeline concorrente de dados e dashboards interativos.
       </p>
       <ul>
-        <li><b>Stack:</b> C, Gerenciamento manual de memória, Estruturas de Dados.</li>
-        <li><b>Destaques:</b> Otimização de algoritmos e fundamentos sólidos de ciência da computação.</li>
+        <li><b>Stack:</b> Python, Pandas, Plotly, Requests, Regex, Render.</li>
+        <li><b>Destaques:</b> Ingestão automatizada de emissões de carbono e visualizações dinâmicas.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/byteric"><b>Ver Perfil →</b></a>
+        <a href="https://bbcarbono.onrender.com/"><b>🌐 Ver Deploy</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/devpedrois/BBCarbono"><b>💻 GitHub</b></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">
+        🏭 Data Lakehouse<br/>
+        <img src="https://img.shields.io/badge/Status-Concluído-blue?style=flat-square" alt="Concluído" />
+      </h3>
+      <p align="center">
+        <b>NTT DATA & Porto Digital</b><br/>
+        Engenharia de dados para o setor automobilístico com Arquitetura Medalhão.
+      </p>
+      <ul>
+        <li><b>Stack:</b> PySpark, Databricks, Python, Delta Lake, CI/CD.</li>
+        <li><b>Destaques:</b> Camadas Bronze/Silver/Gold e 12 testes automatizados de integridade.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Luizrocha0/industria-automobilistida"><b>💻 GitHub</b></a>
       </p>
     </td>
   </tr>
@@ -88,5 +118,5 @@ Desenvolvedor focado em **Engenharia de Software de alta fidelidade**, arquitetu
 ---
 
 <div align="center">
-  <sub>Desenvolvido com foco em alta performance e engenharia limpa • <a href="https://linkedin.com/in/ricardofilhodev">Conecte-se comigo no LinkedIn</a></sub>
+  <sub>Desenvolvido com foco em alta performance e engenharia limpa • <a href="https://ricardo-severiano-portfolio.web.app">Acesse meu portfólio completo</a></sub>
 </div>
